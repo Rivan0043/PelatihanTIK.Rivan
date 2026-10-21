@@ -5,20 +5,24 @@ body {
 }
 
 .kartu-profil {
-  width: 150px;
+  width: 300px;
   margin: 50px auto; /*px jarak atas/bawah, auto menengahkan kiri/kanan */
   padding: 20px;
   background-color: white;
   border-radius: 15px; /* Membuat sudut menjadi melengkung */
-  box-shadow: 0 4px 8px rgba(86, 255, 255); /* Efek bayangan */
+  box-shadow: 0 4px 8px rgba(86, 255, 255,0.5); /* Efek bayangan */
+  text-align:center;
 }
-|
+
 
 .kartu-profil img {
   width: 75px;
+  height:75px;
+  object-fit: cover;
   border-radius: 50%; /*Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 }
-.kartu-profil {
-  /* ... (kode dari slide sebelumnya) ... */
-  text-align: center; /*Menengahkan semua teks di dalam kartu */
+ 
+tombol-instagram {
+   display: inline-block
+   text-decoration: none;
 }
